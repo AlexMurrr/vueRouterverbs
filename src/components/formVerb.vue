@@ -1,5 +1,8 @@
 <script setup>
+import { ref,computed } from "vue";
 import  buttonV from "./buttonV.vue";
+
+let isTrueButton = ref(false);
 </script>
 
 <template>
@@ -14,21 +17,16 @@ import  buttonV from "./buttonV.vue";
 
       <label class="label"><strong>Simple Past:</strong></label> <br />
      
-      <inputV     
-    
-      />
       
       
-      <label class="label"><strong> Simple Participle:</strong></label> <br/>
-
-      
+      <label class="label"><strong> Simple Participle:</strong></label> <br/>      
 
       <buttonV
-        v-if="isTrue"
+        v-if="isTrueButton"
         class="btn"
         type="submit"
         label="Start"
-        @click="(isTrue = !isTrue)"
+        @click="(isTrueButton = !isTrueButton)"
       />
       
       <buttonV
@@ -37,8 +35,10 @@ import  buttonV from "./buttonV.vue";
         type="submit"
         label="Check"
         @click="
-          (isTrue = !isTrue)"
-      />      
+          (isTrueButton = !isTrueButton)"
+      />     
+      
+      
       <hr />    
     </form>
   </div>
