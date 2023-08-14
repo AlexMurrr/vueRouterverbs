@@ -1,12 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import formVerb from './components/formVerb.vue';
+import rule from './components/rule.vue'
 </script>
 
 <template>
  
 <formVerb/>
- 
+<rule/>
 </template>
 
 <style>

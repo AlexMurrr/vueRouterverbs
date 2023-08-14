@@ -9,15 +9,11 @@ let isTrueButton = ref(false);
 
   <div>
     <form @submit.prevent="submit">
-      <label class="label"><strong>Translate:</strong></label> <br />
-
-      
-      
+      <label class="label"><strong>Translate:</strong></label> <br />     
       
 
       <label class="label"><strong>Simple Past:</strong></label> <br />
      
-      
       
       <label class="label"><strong> Simple Participle:</strong></label> <br/>      
 
