@@ -1,11 +1,12 @@
 <script setup>
+import userHi from './userHi.vue';
 
 </script>
 
 <template>
   <div class="divHader">
     <div class="hi">
-    
+      <user-hi />
     </div>
     <div class="hader">
       <h2>Изучаем неправильные глаголы</h2>
