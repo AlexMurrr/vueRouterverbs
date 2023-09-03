@@ -1,13 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import formVerb from './components/formVerb.vue';
-import rule from './components/rule.vue'
+import headerV from './components/header.vue';
+
+
+
+
+
 </script>
 
 <template>
- 
-<formVerb/>
-<rule/>
+ <headerV/>
 </template>
 
 <style>

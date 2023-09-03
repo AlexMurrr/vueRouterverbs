@@ -12,10 +12,10 @@ let isTrueButton = ref(false);
       <label class="label"><strong>Translate:</strong></label> <br />     
       
 
-      <label class="label"><strong>Simple Past:</strong></label> <br />
+      <label class="label"><strong>Past Simple:</strong></label> <br />
      
       
-      <label class="label"><strong> Simple Participle:</strong></label> <br/>      
+      <label class="label"><strong>	Past Participle:</strong></label> <br/>      
 
       <buttonV
         v-if="isTrueButton"
