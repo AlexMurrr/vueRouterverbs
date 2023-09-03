@@ -1,6 +1,6 @@
 <script setup>
 import userHi from './userHi.vue';
-
+import numberPoints from './numberPoints.vue'
 </script>
 
 <template>
@@ -11,7 +11,10 @@ import userHi from './userHi.vue';
     <div class="hader">
       <h2>Изучаем неправильные глаголы</h2>
       <!-- <h3>Введите для глагола: {{  }}</h3> -->
-    </div>   
+    </div> 
+    <div class="point">
+      <number-points />
+    </div>  
   </div>
 </template>
 
